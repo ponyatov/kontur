@@ -1,0 +1,3 @@
+# dynamic array
+
+## resizing

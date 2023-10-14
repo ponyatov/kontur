@@ -1,0 +1,3 @@
+# core.simd
+## [[D/SIMD]]
+

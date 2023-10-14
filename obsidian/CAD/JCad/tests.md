@@ -1,0 +1,9 @@
+```
+lib/JCad
+    tests/
+        checker.sh
+        input/
+            input.in
+        ref/
+            cat.png
+```

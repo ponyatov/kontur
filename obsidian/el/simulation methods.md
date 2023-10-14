@@ -1,0 +1,3 @@
+# simulation methods
+- [[transient simulation]]
+

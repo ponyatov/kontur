@@ -1,0 +1,12 @@
+```
+lib/JCad
+    shapes/
+        Canvas.java
+        Polygon.java
+        Line.java
+        Diamond.java
+        Rectangle.java
+        Circle.java
+        Square.java
+        Triangle.java
+```

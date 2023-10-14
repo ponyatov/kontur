@@ -1,0 +1,7 @@
+# matplotlib
+
+## [[pyplot]]
+
+- [[МНК]]
+
+## colors

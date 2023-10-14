@@ -1,0 +1,12 @@
+```
+lib/JCad
+    FileIO.jar
+    fileio/
+        interfaces
+        interfaces/IReader.class
+        interfaces/IWriter.class
+        implementations
+        implementations/FileReader.class
+        implementations/FileWriter.class
+        FileSystem.class
+```
