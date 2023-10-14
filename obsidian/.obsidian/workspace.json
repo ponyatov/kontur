@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "a47cc1307ce70f8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f25621b6d02f61d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "611be875752cc8cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dos/dos.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "3f30371f6247702a"
+          }
+        ]
+      },
+      {
+        "id": "a4c75edb5b04393c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f802111da03bba31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dos/dos.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "3f30371f6247702a"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e711f48206af79b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "413b9ca80a34ac05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d899218cd7ed56bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e2c8757526aae69c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "<<<",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "444822f7e0a315f2",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "8adcfdcdefe8a5d8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f22daa06311255e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4c4105b5efde8fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e47d9eeff744ce25",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dos/dos.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2cde377e1bdda41e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "dos/dos.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "97f2b8e3a0f19b39",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3ae23ad10960e544",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dos/dos.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "611be875752cc8cd",
+  "lastOpenFiles": [
+    "pcb/TQFP.md",
+    "pcb/TQFP-32.md",
+    "pcb",
+    "hw/USB/ch341.md",
+    "Arduino/nano.png",
+    "Arduino/nano.md",
+    "Arduino/Atmega328P.md",
+    "embedded/semihosting.md",
+    "people/Michael Abrash.md",
+    "dos/bib.md",
+    "media/Graphics Programming Black Book.md",
+    "dos/dos.md",
+    "D/os.md",
+    "dos",
+    "D/semihosting.md",
+    "media/Michael Abrash.md",
+    "media/gpbb.md",
+    "media/StageCraft.md",
+    "places/London.md",
+    "places/Canada.md",
+    "places/Vancouver.md",
+    "places/Australia.md",
+    "media/Vancouver.md",
+    "media/Canada.md",
+    "media/Australia.md",
+    "media/Fox Studios.md",
+    "media/Manhattan Beach Studios.md",
+    "media/Pinewood Studios.md",
+    "media/London.md",
+    "RPi/ROCK_5B.png",
+    "media/soundstage.png",
+    "Linux/ROCK_5B.png",
+    "D/lwdr",
+    "hw/printer",
+    "org/Арсен Саркисян.png",
+    "people/Арсен Саркисян.png",
+    "Dlang",
+    "D",
+    "cnc/MESA",
+    "cnc",
+    "hw/modem/Joys_D20.png",
+    "hw/modem",
+    "hw/model/Joys_D20.png",
+    "hw/model",
+    "privolga/Joys_D20.png",
+    "sound/UM2.png"
+  ]
+}
