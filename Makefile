@@ -21,10 +21,15 @@ obsidian:
 	rsync -r ~/metadoc/qucs     obsidian/
 	rsync -r ~/metadoc/pcb      obsidian/
 	rsync -r ~/metadoc/D        obsidian/
+	rsync -r ~/metadoc/Cpp      obsidian/
+	rsync -r ~/metadoc/Python   obsidian/
 	rsync -r ~/metadoc/Arduino  obsidian/
 	rsync -r ~/metadoc/CAD      obsidian/
 	rsync -r ~/doc/D            doc/
+	rsync -r ~/doc/Cpp          doc/
+	rsync -r ~/doc/Python       doc/
 	rsync -r ~/doc/graph        doc/
+	rsync -r ~/doc/el           doc/
 
 # install
 .PHONY: install update gz

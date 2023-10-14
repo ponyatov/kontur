@@ -1,0 +1,13 @@
+[[Cpp/c_cpp_properties.json]]
+[[project/clang-format]]
+![[Cpp/make#src]]
+![[cmake/files]]
+![[Cpp/make#all]]
+![[Qt/make]]
+![[Cpp/make#rule]]
+
+- [[Cpp/make]]
+- [[Cpp/src]]
+	- [[lex]]
+	- [[yacc]]
+- [[Cpp/skelex]]
