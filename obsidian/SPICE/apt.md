@@ -1,0 +1,3 @@
+```
+ngspice gnuplot
+```

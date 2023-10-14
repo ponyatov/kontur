@@ -17,8 +17,10 @@ doc: obsidian
 obsidian:
 	rsync -r ~/metadoc/kontur   obsidian/
 	rsync -r ~/metadoc/Obsidian obsidian/
+	rsync -r ~/metadoc/KB       obsidian/
 	rsync -r ~/metadoc/el       obsidian/
 	rsync -r ~/metadoc/qucs     obsidian/
+	rsync -r ~/metadoc/SPICE    obsidian/
 	rsync -r ~/metadoc/pcb      obsidian/
 	rsync -r ~/metadoc/CAD      obsidian/
 	rsync -r ~/metadoc/KiCAD    obsidian/

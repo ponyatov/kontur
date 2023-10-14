@@ -1,0 +1,2 @@
+- [[Project/extensions/james-yu.latex-workshop]]
+- [[Project/extensions/xuanli.spice]]
