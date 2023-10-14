@@ -23,6 +23,8 @@ obsidian:
 	rsync -r ~/metadoc/D        obsidian/
 	rsync -r ~/metadoc/Arduino  obsidian/
 	rsync -r ~/metadoc/CAD      obsidian/
+	rsync -r ~/doc/D            doc/
+	rsync -r ~/doc/graph        doc/
 
 # install
 .PHONY: install update gz
