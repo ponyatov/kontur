@@ -1,0 +1,3 @@
+# `git remote`
+
+![[git/shared]]

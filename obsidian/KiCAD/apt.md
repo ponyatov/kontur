@@ -1,0 +1,5 @@
+### apt.dev
+
+```
+ngspice kicad
+```

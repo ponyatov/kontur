@@ -1,0 +1,4 @@
+git make curl rsync
+code meld doxygen
+g++ cmake clang-format
+libreadline-dev flex bison ragel
