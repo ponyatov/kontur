@@ -1,0 +1,4 @@
+
+# wget -q -O - https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+ 
+deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main
