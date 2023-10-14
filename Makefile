@@ -33,7 +33,7 @@ obsidian:
 	rsync -r ~/metadoc/git      obsidian/
 	rsync -r ~/metadoc/license  obsidian/
 	rsync -r ~/metadoc/tech     obsidian/
-	rsync -r ~/metadoc/tools  obsidian/
+	rsync -r ~/metadoc/tools    obsidian/
 
 .PHONY: books
 books:
