@@ -1,13 +1,11 @@
 {
-    "name": "kontur",
-    "description": "SSAU/Kontur electronic student club tools",
+    "name": "d",
+    "description": "D language samples",
     "authors": ["Dmitry Ponyatov <dponyatov@gmail.com>"],
     "copyright": "Copyright © 2023, Dmitry Ponyatov <dponyatov@gmail.com>",
     "license": "MIT",
     "targetType": "none",
-    "targetPath":  "bin",
-    "targetName":  "kontur",
     "subPackages": [
-        "d"
+        "hello"
     ]
 }
