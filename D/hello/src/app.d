@@ -2,5 +2,5 @@ import std.stdio;
 
 void main()
 {
-	writeln("Hello, Kontur!");
+    writeln("Hello, Kontur!");
 }

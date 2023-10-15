@@ -3,3 +3,5 @@ code meld doxygen
 g++ cmake clang-format
 libreadline-dev flex bison ragel
 qucs-s ngspice maxima kicad
+libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev libsdl2-ttf-dev
+libavcodec-dev libavformat-dev libavdevice-dev libavutil-dev

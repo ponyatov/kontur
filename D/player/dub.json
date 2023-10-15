@@ -8,6 +8,13 @@
     "targetName":  "player",
     "systemDependencies" : "libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev libsdl2-ttf-dev libavcodec-dev libavformat-dev libavdevice-dev libavutil-dev",
     "dependencies": {
-        "bindbc-sdl": "~>1.4.2"
-    }
+        "bindbc-sdl": "~>1.4.2",
+        "ffmpeg-d": "~>4.4.1"
+    },
+    "subConfigurations": {
+        "bindbc-sdl": "static"
+    },
+    "libs": [
+        "SDL2"
+    ]
 }

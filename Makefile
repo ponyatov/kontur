@@ -19,10 +19,12 @@ hello: bin/hello
 .PHONY: player
 player: bin/player
 	$^
-
-bin/%: D/% D/%/dub.json $(wildcard D/%/src/*.d)
-	echo $^
+bin/player: D/player D/player/dub.json $(wildcard D/player/src/*.d)
 	cd $< ; BIN=$(BIN) dub build
+
+format: tmp/format_d
+tmp/format_d: $(shell find D -type f -regex '.+.d$$')
+	dub run dfmt -- $? && touch $@
 
 # doc
 .PHONY: doc
@@ -47,7 +49,7 @@ books:
 	done ; echo
 
 # install
-.PHONY: install update gz
+.PHONY: install update doc gz
 install: $(OS)_install
 	$(MAKE) update
 update: $(OS)_update
@@ -55,5 +57,7 @@ update: $(OS)_update
 .PHONY: $(OS)_install $(OS)_update
 Linux_install:
 Linux_update:
-# sudo apt update
+	sudo apt update
 	sudo apt install -yu `cat apt.$(OS)`
+
+gz:
