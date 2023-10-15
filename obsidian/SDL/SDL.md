@@ -1,4 +1,5 @@
-# libSDL
-![[about]]
-### lib[[SDL2]]
-![[SDL2]]
+# [[D/D|D]] [[SDL/SDL|SDL]]
+
+- https://github.com/Zardoz89/dlang-bindbc-sdl-opengl-example
+
+![[D/bindbc/sdl]]

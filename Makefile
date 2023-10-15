@@ -24,7 +24,7 @@ bin/player: D/player D/player/dub.json $(wildcard D/player/src/*.d)
 
 format: tmp/format_d
 tmp/format_d: $(shell find D -type f -regex '.+.d$$')
-	dub run dfmt -- $? && touch $@
+	dub run dfmt -- -i $? && touch $@
 
 # doc
 .PHONY: doc
