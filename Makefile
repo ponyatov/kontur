@@ -1,48 +1,50 @@
 # var
 OS      = $(shell uname -o | sed 's/GNU\///')
 
+# dir
+CWD = $(CURDIR)
+BIN = $(CWD)/bin
+
+# package
+DAPP += bin/hello bin/player
+
 # kontur tools
 .PHONY: all
-all: hello
+all: $(DAPP)
 
 .PHONY: hello
-hello:
-	dub run :$@
+hello: bin/hello
+	$^
+
+.PHONY: player
+player: bin/player
+	$^
+
+bin/%: D/% D/%/dub.json $(wildcard D/%/src/*.d)
+	echo $^
+	cd $< ; BIN=$(BIN) dub build
 
 # doc
 .PHONY: doc
 doc: obsidian
 
+OBSIDIAN_SECTION += kontur Obsidian KB math el qucs SPICE pcb CAD KiCAD
+OBSIDIAN_SECTION += D Cpp Python Arduino Linux git license tech tools
+OBSIDIAN_SECTION += media game SDL
 .PHONY: obsidian
 obsidian:
-	rsync -r ~/metadoc/kontur   obsidian/
-	rsync -r ~/metadoc/Obsidian obsidian/
-	rsync -r ~/metadoc/KB       obsidian/
-	rsync -r ~/metadoc/math     obsidian/
-	rsync -r ~/metadoc/el       obsidian/
-	rsync -r ~/metadoc/qucs     obsidian/
-	rsync -r ~/metadoc/SPICE    obsidian/
-	rsync -r ~/metadoc/pcb      obsidian/
-	rsync -r ~/metadoc/CAD      obsidian/
-	rsync -r ~/metadoc/KiCAD    obsidian/
-	rsync -r ~/metadoc/D        obsidian/
-	rsync -r ~/metadoc/Cpp      obsidian/
-	rsync -r ~/metadoc/Python   obsidian/
-	rsync -r ~/metadoc/Arduino  obsidian/
-	rsync -r ~/metadoc/Linux    obsidian/
-	rsync -r ~/metadoc/git      obsidian/
-	rsync -r ~/metadoc/license  obsidian/
-	rsync -r ~/metadoc/tech     obsidian/
-	rsync -r ~/metadoc/tools    obsidian/
+	for section in $(OBSIDIAN_SECTION) ; do \
+		echo -n "$$section\t" ;\
+		rsync -r ~/metadoc/$$section obsidian/ ;\
+	done ; echo
 
+BOOKS += D Cpp Python graph el math
 .PHONY: books
 books:
-	rsync -r ~/doc/D            doc/
-	rsync -r ~/doc/Cpp          doc/
-	rsync -r ~/doc/Python       doc/
-	rsync -r ~/doc/graph        doc/
-	rsync -r ~/doc/el           doc/
-	rsync -r ~/doc/math         doc/
+	for book in $(BOOKS) ; do \
+		echo -n "$$book\t" ;\
+		rsync -r ~/doc/$$book doc/ ;\
+	done ; echo
 
 # install
 .PHONY: install update gz

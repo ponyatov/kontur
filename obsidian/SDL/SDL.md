@@ -1,4 +1,4 @@
 # libSDL
-## Simple Directmedia Layer
+![[about]]
 ### lib[[SDL2]]
 ![[SDL2]]

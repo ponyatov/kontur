@@ -1,0 +1,13 @@
+{
+    "name":        "kontur",
+    "description": "D language samples for SSAU/Kontur",
+    "authors":    ["Dmitry Ponyatov <dponyatov@gmail.com>"],
+    "copyright":   "Copyright © 2023, Dmitry Ponyatov <dponyatov@gmail.com>",
+    "license":     "MIT",
+    "targetType":  "none",
+    "targetPath":  "$BIN",
+    "targetName":  "kontur",
+    "subPackages": [
+        "hello"
+    ]
+}

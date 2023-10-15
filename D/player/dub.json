@@ -1,0 +1,13 @@
+{
+    "name":        "player",
+    "description": "media player with network remote control",
+    "authors":    ["Dmitry Ponyatov <dponyatov@gmail.com>"],
+    "copyright":   "Copyright © 2023, Dmitry Ponyatov <dponyatov@gmail.com>",
+    "license":     "MIT",
+    "targetPath":  "$BIN",
+    "targetName":  "player",
+    "systemDependencies" : "libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev libsdl2-ttf-dev libavcodec-dev libavformat-dev libavdevice-dev libavutil-dev",
+    "dependencies": {
+        "bindbc-sdl": "~>1.4.2"
+    }
+}
