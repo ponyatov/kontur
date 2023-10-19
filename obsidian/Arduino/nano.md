@@ -5,3 +5,4 @@
 
 ![[nano.png]]
 
+![[nano_board_info.png]]

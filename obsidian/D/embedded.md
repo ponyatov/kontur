@@ -17,12 +17,23 @@ https://code.dlang.org/packages/ffmpeg-d
 
 https://code.dlang.org/search?q=Sdl
 
+## [[LDC]]
+
+- https://wiki.dlang.org/Minimal_semihosted_ARM_Cortex-M_%22Hello_World%22
+
 ## [[RiscV]]
 - [[RiscV]] bare metal (лучше betterC):
-	- https://zyedidia.github.io/blog/posts/1-d-baremetal/
+	- [[Multiplix]]
+		- https://forum.dlang.org/post/eemwycjmfqvedgggnvnr@forum.dlang.org
+			- https://zyedidia.github.io/blog/posts/1-d-baremetal/
+			- https://zyedidia.github.io/blog/posts/2-baremetal-visionfive/
+			- https://github.com/zyedidia/multiplix
+
 
 ## [[LWDR]]
 
 ## apps
 
 - [Driving with D](https://dlang.org/blog/2021/06/01/driving-with-d/)
+
+## [[multiboot]]

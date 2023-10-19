@@ -66,3 +66,10 @@ void main(string[] args) {
 ![[writefln]]
 
 ![[SDL_Init]]
+
+## [[ffmpeg]]
+
+- Руководство по [[ffmpeg]] и [[SDL/SDL|SDL]] или Как написать видеоплеер менее чем в 1000 строк
+	1. https://habr.com/ru/companies/edison/articles/500402/
+	2. https://habr.com/ru/companies/edison/articles/502844/
+

@@ -4,6 +4,8 @@
 
 - [[Arduino Mega 0128]]
 - [[Mega-2560 R31]]
+- [[nano]]
+- [[HW-888]]
 
 [[Arduino/setup]]
 [[Arduino/loop]]

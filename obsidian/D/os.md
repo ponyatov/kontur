@@ -1,7 +1,6 @@
 ![[dos/dos]]
 ## [[OS/OS|OS]]es in [[D/D|D]] lang
 
-
 ![[PowerNex]]
 
 - https://github.com/zyedidia/multiplix 2023 dconf

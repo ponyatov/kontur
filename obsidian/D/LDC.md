@@ -2,6 +2,12 @@
 ## [[LLVM/LLVM|LLVM]] [[D/D|D]] compiler
 ### [[D/cross|cross]]-compiling and optimized builds
 
+## [[Makefile]]
+
+```Makefile
+
+```
+
 ## install
 
 - https://github.com/ldc-developers/ldc/releases/latest
@@ -18,3 +24,4 @@ https://www.youtube.com/live/GN2WFeGEB3g?si=zrcVtWPnwSYka3lr&t=277
 
 > [[PowerNex]]
 
+- https://wiki.dlang.org/Minimal_semihosted_ARM_Cortex-M_%22Hello_World%22
